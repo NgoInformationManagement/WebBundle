@@ -14,17 +14,17 @@ nim_locale_update:
     defaults: { _controller: NIMWebBundle:Locale:update }
 
 nim_mission:
-    resource: @NIMMissionBundle/Resources/config/routing/mission.yml
+    resource: @NIMWebBundle/Resources/config/routing/mission.yml
     prefix: /mission
 
 nim_agency:
-    resource: @NIMWorkerBundle/Resources/config/routing/agency.yml
+    resource: @NIMWebBundle/Resources/config/routing/agency.yml
     prefix: /agency
 
 nim_worker:
-    resource: @NIMWorkerBundle/Resources/config/routing/worker.yml
+    resource: @NIMWebBundle/Resources/config/routing/worker.yml
     prefix: /worker
 
 nim_vaccine:
-    resource: @NIMVaccineBundle/Resources/config/routing/vaccine.yml
+    resource: @NIMWebBundle/Resources/config/routing/vaccine.yml
     prefix: /vaccine
